@@ -22,7 +22,7 @@ def run_pipeline():
     logging.info("Iniciando o Pipeline de Mobilidade Urbana de Niterói...")
     today = datetime.now().strftime("%Y-%m-%d")
     
-    # Parâmetros Centrais
+    
     API_URL = "https://services8.arcgis.com/TpaOLI1HCh5AcRQB/arcgis/rest/services/Grouplayer_SMU_UDU_AGOL/FeatureServer/70/query?outFields=*&where=1%3D1&f=geojson"
     DB_URL = "postgresql+psycopg2://admin:adminpassword@localhost:5432/mobilidade_niteroi"
     

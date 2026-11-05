@@ -24,6 +24,6 @@ def fetch_and_save_data(api_url, destination_folder):
         print(f"Falha na extração: {e}")
 
 if __name__ == "__main__":
-    # Substitua pela URL da API de Niterói ou endpoint de trânsito
+    
     URL_ALVO = "https://services8.arcgis.com/TpaOLI1HCh5AcRQB/arcgis/rest/services/Grouplayer_SMU_UDU_AGOL/FeatureServer/70/query?outFields=*&where=1%3D1&f=geojson"
     fetch_and_save_data(URL_ALVO, "data/bronze")
